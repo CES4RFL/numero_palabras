@@ -4,8 +4,8 @@ Esta es la referencia a la documentacion de la libreria https://pypi.org/project
 
 Comando para instalar numlet:
 
-pip install numlet
+py -m pip install numlet
 
-Ejecutar con el comando:
+Ejecutar con el comando para correr el programa:
 
 py main.py
