@@ -2,6 +2,7 @@ from nlt import numlet as converter
 
 while(True):
     #Espera un valor de entrada por teclado
+    print("Escribe la palabra 'Salir' para terminar el programa...")
     number = input("Ingresa un numero \n")
 
     #Evalua la entrada para detener el ciclo while
@@ -22,5 +23,5 @@ while(True):
     except:
         #Mensaje generico en caso de tener algun error en la ejecucion
         #del bloque que transforma el numero a palabras
-        print("El numero no puede ser transformado a letras")
+        print("El valor de entrada no puede ser transformado a letras")
         print("\n")
